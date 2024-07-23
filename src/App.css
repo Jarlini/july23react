@@ -1,4 +1,6 @@
-.App {
+p{text-align: justify;
+
+}.App {
   text-align: center;
 }
 
@@ -12,7 +14,18 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.kumar-button a {
+  margin: 0 10px;
+  padding: 10px 20px;
+  background-color: #ebc51c;
+  border: none;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  display: block;
 
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -35,4 +48,81 @@
   to {
     transform: rotate(360deg);
   }
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #3e14d6;
+  color: white;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.nav-buttons a {
+  margin: 0 10px;
+  padding: 10px 20px;
+  background-color: #444;
+  border: none;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  display: inline-block;
+
+}
+
+.nav-buttons a:hover {
+  background-color: #555;
+}
+
+.search-bar {
+  display: inline-block;
+}
+
+.search-bar input {
+  padding: 10px;
+  border: none;
+  border-radius: 4px 0 0 4px;
+  outline: none;
+}
+
+.search-bar button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #444;
+  color: white;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.search-bar button:hover {
+  background-color: #555;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  text-align: center;
+  padding: 50px;
+}
+
+.paragraph {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.photo {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
 }

@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Navbar from './commponents/Blognav';
+
+import Posts from './commponents/Posts';
+
+const Java = () => <div>Java</div>;
+const Data = () => <div>Data stucture</div>;
+const Algoritham = () => <div>Algoritham</div>;
+const Computer= () => <div>Computer network</div>;
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (<div className="App">
+        <Router>
+           
+                <Navbar />
+                <Routes>
+                    <Route path="/" element={<Java/>} />
+                    <Route path="/Data" element={<Data />} />
+                    <Route path="/Algoritham" element={<Algoritham/>} />
+                    <Route path="/Computer" element={<Computer />} />
+                </Routes>
+            
+        </Router>
+   
+
+        <Posts/>
+        </div>
+    );
 }
 
 export default App;
