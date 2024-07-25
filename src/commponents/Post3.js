@@ -6,7 +6,7 @@ import photo0 from'./download (4).jpeg';
 
 const Post3 = () => {
   return (
-    <div className="container">
+    <div className="container"> <div className="box paragraph-box">
       <p className="paragraph">va is an object-oriented programming language where classes define blueprints for 
 objects, and methods specify behaviors within these classes. Variables in Java, such as int, double, and String, store data values. Control statements like
  if, else, switch, for, while, and do-while manage the flow of execution. Inheritance 
@@ -18,14 +18,16 @@ objects, and methods specify behaviors within these classes. Variables in Java, 
 
 
 
-</p>
+</p> 
+      
+
       <img
         src={photo0}
         alt="Placeholder"
         className="photo"
-      /><br/><br/>
+      /> <br/><br/>
       <button className='kumar'> readmore</button>
-    </div>
+    </div> </div>
   );
 };
 

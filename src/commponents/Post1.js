@@ -4,8 +4,8 @@ import '/home/uki-student/blogg/src/App.css';
 import photo from'./download (2).png';
 
 const Post1 = () => {
-  return (
-    <div className="container">
+  return ( <div className='Post1'>
+    <div className="container"><div className="box paragraph-box">
       <p className="paragraph">ava is an object-oriented programming language where classes define blueprints for 
 objects, and methods specify behaviors within these classes. Variables in Java, such as int, double, and String, store data values. Control statements like
  if, else, switch, for, while, and do-while manage the flow of execution. Inheritance 
@@ -14,17 +14,19 @@ objects, and methods specify behaviors within these classes. Variables in Java, 
  Exception handling in Java involves try, catch, finally, and throw to manage runtime errors. Finally, packages, declared with the package keyword, 
  help organize classes and interfaces, promoting modular and maintainable code.
 
- </p>
+ </p> 
 
+
+ 
 
       <img
         src={photo}
         alt="Placeholder"
         className="photo"
-      /> <br/><br/>
+      />  <br/><br/>
       <button className='kumar'>readmore</button>
       
-    </div>
+    </div> </div></div>
   );
 };
 

@@ -5,8 +5,8 @@ import '/home/uki-student/blogg/src/App.css';
 import photo8 from'./download (2).png';
 
 const Post4 = () => {
-  return (
-    <div className="container">
+  return (<div className="network">
+    <div className="container"><div className="box paragraph-box">
       <p className="paragraph">
       A network refers to a system of interconnected entities that communicate with each other to share resources and
        information. In computing, networks connect devices such as computers, servers, and printers, allowing them to exchange data and access shared resources.
@@ -15,13 +15,14 @@ const Post4 = () => {
       Security measures are crucial to protect networks from unauthorized access and ensure data integrity.
 </p>
 
+
       <img
         src={photo8}
         alt="Placeholder"
         className="photo"
-      /><br/><br/>
-      <button className='kumar'>readmore </button>
-    </div>
+      />    <br/><br/>
+      <button className='kumar'>readmore </button></div>
+    </div></div>
   );
 };
 

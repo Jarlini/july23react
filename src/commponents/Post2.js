@@ -9,8 +9,8 @@ import photo2 from'./download (3).png';
 
 const Post2= () => {
   return (
-    <div className="container">
-      <p className="paragraph">
+    <div className="Post2"><div className="box paragraph-box">
+      <p className="paragraph"> 
 
       Data is the foundation of modern decision-making and technological advancement. It refers to raw, unprocessed facts and figures collected from 
       various sources. When analyzed, data provides valuable insights that drive business strategies, scientific research, and everyday problem-solving. It comes in many forms,
@@ -19,19 +19,21 @@ const Post2= () => {
 
 
 
+        
 
 
 
 
+</p> 
+      
 
-</p>
       <img
         src={photo2}
         alt="Placeholder"
         className="photo"
-      /><br/><br/>
+      />  <br/><br/>
       <button className='kumar'>readmore</button>
-    </div>
+    </div></div>
   );
 };
 
